@@ -1,23 +1,23 @@
 
-import java.util.ArrayList;
-import java.util.List;
+// import java.util.ArrayList;
+// import java.util.List;
 
-public class Group {
-    private Students studentLead;
-    private final List<Students> studentsList;
-    private final List<String> tasksList;
+// public class Group {
+//     private Students studentLead;
+//     private final List<Students> studentsList;
+//     private final List<String> tasksList;
 
-    public Group(Students studentLead) {
-        this.studentLead = studentLead;
-        this.studentsList = new ArrayList<>();
-        this.tasksList = new ArrayList<>();
-    }
+//     public Group(Students studentLead) {
+//         this.studentLead = studentLead;
+//         this.studentsList = new ArrayList<>();
+//         this.tasksList = new ArrayList<>();
+//     }
 
-    public Students getStudentLead() {
-        return studentLead;
-    }
+//     public Students getStudentLead() {
+//         return studentLead;
+//     }
 
-    public void setStudentLead(Students studentLead) {
+//     public void setStudentLead(Students studentLead) {
         this.studentLead = studentLead;
     }
 
